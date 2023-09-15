@@ -26,6 +26,6 @@
   - name: restartwebserver
     service:
         name: apache2
-        statep: restarted 
+        state: restarted 
   
 
