@@ -1,0 +1,6 @@
+---
+- name: download java application war file into webapps folder 
+  get_url:
+    url: https://mystorageacc17sep23.blob.core.windows.net/myfolder/login.war
+    dest: /opt/tomcat/webapps/login.war
+    force_basic_auth: yes
